@@ -3,10 +3,7 @@ name: Say hello
 on:
   push:
     branches:
-      - main
-      -develop
-      -release
-      -master
+      - main    
 
 jobs:
   hello_world:
